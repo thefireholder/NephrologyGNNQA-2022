@@ -1,0 +1,7 @@
+obiwan
+pid: 732946
+conda env: greaselm
+screen: 
+
+gpu: 0,1
+

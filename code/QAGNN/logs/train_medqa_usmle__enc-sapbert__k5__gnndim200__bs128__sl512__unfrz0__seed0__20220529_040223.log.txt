@@ -1,0 +1,10 @@
+obiwan
+pid: 733116
+conda env: greaselm
+screen: 
+
+gpu: 0
+
+Namespace(att_head_num=2, batch_size=128, cuda=True, dataset='medqa_usmle', debug=False, decoder_lr=0.001, dev_adj='data/medqa_usmle/graph/dev.graph.adj.pk', dev_statements='data/medqa_usmle/statement/dev.statement.jsonl', drop_partial_batch=False, dropoutf=0.2, dropoutg=0.2, dropouti=0.2, encoder='cambridgeltl/SapBERT-from-PubMedBERT-fulltext', encoder_layer=-1, encoder_lr=5e-05, ent_emb=['ddb'], ent_emb_paths=['data/ddb/ent_emb.npy'], eval_batch_size=2, fc_dim=200, fc_layer_num=0, fill_partial_batch=False, fp16=True, freeze_ent_emb=True, gnn_dim=200, inhouse=False, inhouse_train_qids='data/medqa_usmle/inhouse_split_qids.txt', init_range=0.02, k=5, load_model_path=None, log_interval=10, loss='cross_entropy', lr_schedule='fixed', max_epochs_before_stop=10, max_grad_norm=1.0, max_node_num=200, max_seq_len=512, mini_batch_size=2, mode='train', n_epochs=15, num_relation=34, optim='radam', refreeze_epoch=10000, save_dir='saved_models/medqa_usmle/enc-sapbert__k5__gnndim200__bs128__seed0__20220529_040223', save_model=True, seed=0, simple=False, subsample=1.0, test_adj='data/medqa_usmle/graph/test.graph.adj.pk', test_statements='data/medqa_usmle/statement/test.statement.jsonl', train_adj='data/medqa_usmle/graph/train.graph.adj.pk', train_statements='data/medqa_usmle/statement/train.statement.jsonl', unfreeze_epoch=0, use_cache=True, warmup_steps=150, weight_decay=0.01)
+| num_concepts: 9958 |
+train_statement_path data/medqa_usmle/statement/train.statement.jsonl
